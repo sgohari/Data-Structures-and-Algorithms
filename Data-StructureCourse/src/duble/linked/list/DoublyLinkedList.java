@@ -9,7 +9,6 @@ public class DoublyLinkedList<E> {
 	    @SuppressWarnings("rawtypes")
 		private Node tail;
 	    private int size;
-	     
 	    public DoublyLinkedList() {
 	        size = 0;
 	    }
