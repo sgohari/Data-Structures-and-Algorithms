@@ -47,7 +47,13 @@ public class LinkedListsDems {
 		object.set(0, "WHAT");
 		System.out.println("New Name is Added "+object);
 		
+		Object first = object.get(0);
+		System.out.println("First element of the List "+first);
 		
+		object.set(0, "Reza Talks too much");
+		Object updatedFirst = object.get(0);
+		System.out.println("First element of the List "+updatedFirst);
+		System.out.println();
 	}
 
 }
